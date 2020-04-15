@@ -1,0 +1,15 @@
+1) git reset --soft <commit id>
+
+it will remove commits/files which is above the <commit id> mentioned in the command.
+But it will send to staging directory and will not remove permanently. That means files/changes still there in the folder.
+
+2) git reset --mixed <commit id>  ## this is default reset
+
+it will remove commits/files which is above the <commit id> mentioned in the command.
+But it will send to working directory and will not remove permanently. That means files/changes still there in the folder.
+
+3) 2) git reset --hard <commit id>
+
+it will remove commits/files which is above the <commit id> mentioned in the command.
+And it will permanently deleted/removed from the folder.
+*********************use git reset --hard carefully**************************
