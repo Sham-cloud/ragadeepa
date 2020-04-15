@@ -1,0 +1,27 @@
+1) Download and Install Git from https://git-scm.com/downloads
+
+2) Create a folder and initialize Git using # git init
+hidden foler .git gets created
+
+3) create the source code files using # touch f1 f2 
+
+4) check its status using # git status  --these files are in working directory now - untracked in red color
+
+5) add these files in staging directory using # git add f1 f2 or # git add .   
+
+6) check its status again using # git statys  -- now these are tracked in green color
+
+7) move/commit these files to local repo using # git commit -m "f1 f2 added"
+
+8) git status will show nothing to commit on master. Here we need to use # git log to check the commits
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Git Branch
+---------------
+
+1) to see all the branches # git branch
+2) to create new branch # git branch <new branch name>
+3) to switch to branch # git checkout <branch name>
+4) to move the commit to other branches # git cherry-pick <commit id get from git log>
+
+
